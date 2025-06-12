@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 import "./AboutUsBox.css";
 
 const AboutUsBox = () => {
@@ -7,21 +6,20 @@ const AboutUsBox = () => {
     <section className="about-us">
       <div className="row">
         <div className="about-col">
-          <h1>We are the world&apos;s largest university</h1>
+          <h1>Welcome to NIT Jalandhar</h1>
           <p>
-            At our unviersity, we take pride in fostering a culture where
-            excellence seamlessly interwines with education. Our unwavering
-            commitment to delivering a standard of education that exceeds
-            expectations os what sets up apart. We believe in the power of
-            transformative learning experiences, providing students with the
-            skills and knwoledge to thrive n a dynamic world.
+            Dr. B. R. Ambedkar National Institute of Technology Jalandhar (NITJ) is one of the
+            premier engineering institutions in India. We are dedicated to academic excellence,
+            cutting-edge research, and holistic development of our students. At NIT Jalandhar, we
+            empower learners with strong technical skills, critical thinking, and leadership
+            qualities to tackle global challenges and innovate for a better future.
           </p>
           <Link to="#" className="hero-btn red-btn">
             EXPLORE NOW
           </Link>
         </div>
         <div className="about-col">
-          <img src="images/about.jpg" alt="" />
+          <img src="images/about.jpg" alt="NIT Jalandhar Campus" />
         </div>
       </div>
     </section>

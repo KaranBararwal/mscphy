@@ -13,15 +13,15 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   return (
     <section className="footer">
-      <h4>About Us</h4>
+      <h4>About M.Sc. Physics - NIT Jalandhar</h4>
       <p>
-        Comitted to the pursuit of knowledge and the empowerment of individuals,
-        our institution stands as a beacon of learning and inspiration. We are
-        on a mission to nurture inquisitive minds, encourage creativity, and
-        drive positive change. Our dedicated team strives to provide a
-        supportive learning environment that fosters personal growth and
-        academic ecellence. Join us on a journey of discovery, where education
-        transcends boundaries and transforms lives.
+        The Department of Physics at NIT Jalandhar is committed to advancing knowledge through
+        cutting-edge research and academic excellence in the field of Physics. The M.Sc. Physics
+        program emphasizes both theoretical understanding and practical laboratory experience,
+        fostering a strong foundation for careers in research, industry, and academia.
+        <br />
+        With modern lab infrastructure, dedicated faculty, and an encouraging academic environment,
+        we aim to shape curious minds into future scientists and educators.
       </p>
 
       <div className="icons">
@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
 
       <p>
-        Made with <FontAwesomeIcon icon={faHeart} className="fa-heart" /> by SSK
+        Made with <FontAwesomeIcon icon={faHeart} className="fa-heart" /> by Team NITJ
       </p>
     </section>
   );

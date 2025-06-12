@@ -6,9 +6,9 @@ const Cta = () => {
   return (
     <section className="cta">
       <h1>
-        Enroll For Our Various Online Courses
+        Join the M.Sc. Physics Program at NIT Jalandhar
         <br />
-        Anywhere From The World
+        Advance Your Research Career with Us
       </h1>
       <Link to="/contact" className="hero-btn">
         CONTACT US

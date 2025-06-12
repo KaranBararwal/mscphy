@@ -5,34 +5,29 @@ const BlogContent = () => {
     <section className="blog-content">
       <div className="row">
         <div className="blog-left">
-          <img src="/images/certificate.jpg" alt="" />
-          <h2>Our Certificate &&apos; Online Programs For 2025</h2>
+          <img src="/images/certificate.jpg" alt="MSc Physics" />
+          <h2>MSc in Physics &apos; Program Overview - NIT Jalandhar</h2>
           <p>
-            Discover a world of opportunities with our diverse range of
-            certificate and online programs tailored for 2025. At our
-            institution, we&apos;re dedicated to providing enriching educational
-            experiences that empower individuals for success in their chosen
-            fields.
+            Welcome to the MSc in Physics program at NIT Jalandhar. This
+            two-year postgraduate course is designed to provide students with a
+            deep understanding of the fundamental and applied aspects of modern
+            physics. Our curriculum emphasizes analytical thinking,
+            experimental skills, and research-oriented learning.
           </p>
           <br />
           <p>
-            Whether you&apos;re interested in business analytics, data science,
-            machine learning, computer science, AutoCAD, journalism, or commerce
-            - our programs cater to a wide array of interests and industries.
-            Join us on a transformative journey as you delve into the latest
-            trends and advancements in your chosen field.
+            The program offers specialized modules in areas like Quantum
+            Mechanics, Electrodynamics, Thermodynamics, and Statistical
+            Mechanics. Students also engage in laboratory work, projects, and
+            dissertation-based research to prepare for careers in academia,
+            research, and industry.
           </p>
           <br />
           <p>
-            Our commitment is to create a vibrant learning community where
-            knowledge meets innovation. Embrace the future of education with us
-            and gain valuable insights that will shape your professional path.
-          </p>
-          <br />
-          <p>
-            Ready to take the next step? Feel free to share your thoughts and
-            questions in the comments below. Your journey towards academic and
-            personal growth begins here!
+            Whether you&apos;re a student, working professional, or an
+            enthusiast, there&apos;s something for everyone in our MSc Physics
+            journey. Embrace a vibrant academic culture with leading faculty and
+            world-class infrastructure at NIT Jalandhar.
           </p>
 
           <div className="comment-box">
@@ -49,34 +44,34 @@ const BlogContent = () => {
         </div>
 
         <div className="blog-right">
-          <h3>Post Categories</h3>
+          <h3>Course Categories</h3>
           <div>
-            <span>Business Analytics</span>
-            <span>21</span>
+            <span>Quantum Mechanics</span>
+            <span>12</span>
           </div>
           <div>
-            <span>Data Science</span>
-            <span>28</span>
+            <span>Electrodynamics</span>
+            <span>9</span>
           </div>
           <div>
-            <span>Machine Learning</span>
-            <span>15</span>
+            <span>Thermodynamics</span>
+            <span>6</span>
           </div>
           <div>
-            <span>Computer Science</span>
-            <span>34</span>
+            <span>Statistical Mechanics</span>
+            <span>8</span>
           </div>
           <div>
-            <span>AutoCAD</span>
-            <span>42</span>
+            <span>Solid State Physics</span>
+            <span>11</span>
           </div>
           <div>
-            <span>Journalism</span>
-            <span>22</span>
+            <span>Experimental Techniques</span>
+            <span>7</span>
           </div>
           <div>
-            <span>Commerce</span>
-            <span>30</span>
+            <span>Dissertation</span>
+            <span>5</span>
           </div>
         </div>
       </div>

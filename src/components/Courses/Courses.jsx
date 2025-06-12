@@ -3,31 +3,39 @@ import "./Courses.css";
 const Courses = () => {
   return (
     <section className="course">
-      <h1>Courses We Offer</h1>
+      <h1>Research Areas in M.Sc. Physics</h1>
       <p>
-        Explore our diverse range of courses designed to enhance your learning
-        experience.
+        Explore the exciting research domains offered in the M.Sc. Physics program at NIT Jalandhar.
       </p>
       <div className="row">
         <div className="course-col">
-          <h3>Intermediate</h3>
+          <h3>Condensed Matter Physics</h3>
           <p>
-            Acquire intermediate skills with our comprehensive courses. Discover
-            new horizons in your educational journey.
+            Investigate the properties of matter in solid and liquid phases. Engage in experimental and theoretical studies on nanomaterials, semiconductors, and magnetic materials.
           </p>
         </div>
         <div className="course-col">
-          <h3>Degree</h3>
+          <h3>Plasma Physics</h3>
           <p>
-            Pursue a degree that aligns with your passion and career goals.
-            Unleash your potential and excel in your chosen field.
+            Study ionized gases and their applications in fusion technology, space sciences, and advanced material processing.
           </p>
         </div>
         <div className="course-col">
-          <h3>Post Graduation</h3>
+          <h3>Photonics and Optoelectronics</h3>
           <p>
-            Elevate your academic profile with our post-graduation programs.
-            Embrace advanced knowledge and excel in your chosen discipline.
+            Explore the interaction of light with matter, fiber optics, laser systems, and devices used in modern communication and sensing technologies.
+          </p>
+        </div>
+        <div className="course-col">
+          <h3>Nuclear and Particle Physics</h3>
+          <p>
+            Delve into the structure of atomic nuclei, fundamental particles, and the forces that govern them, with potential collaboration on high-energy experiments.
+          </p>
+        </div>
+        <div className="course-col">
+          <h3>Theoretical Physics</h3>
+          <p>
+            Focus on quantum mechanics, classical field theory, and mathematical modeling of physical systems to understand the universe at a fundamental level.
           </p>
         </div>
       </div>

@@ -6,51 +6,38 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 const Testimonials = () => {
   return (
     <section className="testimonials">
-      <h1>What Our Student Says</h1>
+      <h1>What Our M.Sc. Physics Students Say</h1>
       <p>
-        Discover what our students have to say about their transformative
-        experiences.
+        Hear from our students about their research, lab experiences, and academic journey at NIT Jalandhar.
       </p>
       <div className="row">
         <div className="testimonial-col">
-          <img src="/images/user1.jpg" alt="" />
+          <img src="/images/user1.jpg" alt="Student Christine" />
           <div>
             <p>
-              &quot;The educational journey here is truly transformative. A
-              nurturing environment that fosters both personal and academic
-              growth.&quot;
+              &quot;The advanced physics labs and the exposure to real-time research at NIT Jalandhar have been phenomenal. The faculty is very supportive and encourages innovation.&quot;
             </p>
-            <h3>Christine Berkley</h3>
+            <h3>Priya Sharma</h3>
             <div className="stars">
-              {[...Array(4)].map((_, i) => (
-                <FontAwesomeIcon
-                  key={i}
-                  icon={faStar}
-                  className="filled-star"
-                />
+              {[...Array(5)].map((_, i) => (
+                <FontAwesomeIcon key={i} icon={faStar} className="filled-star" />
               ))}
-              <FontAwesomeIcon icon={faStar} className="empty-star" />
             </div>
           </div>
         </div>
 
         <div className="testimonial-col">
-          <img src="/images/user2.jpg" alt="" />
+          <img src="/images/user2.jpg" alt="Student David" />
           <div>
             <p>
-              &quot; This institutional goes beyond education; it&apos;s a
-              community that nurtures creativity and critical thinking. Truly
-              exceptional! &quot;
+              &quot;The curriculum is very research-oriented, and the facilities like the optics and nano-materials labs make learning exciting. Great place to grow academically!&quot;
             </p>
-            <h3>David Byer</h3>
+            <h3>Rahul Verma</h3>
             <div className="stars">
-              {[...Array(5)].map((_, i) => (
-                <FontAwesomeIcon
-                  key={i}
-                  icon={faStar}
-                  className="filled-star"
-                />
+              {[...Array(4)].map((_, i) => (
+                <FontAwesomeIcon key={i} icon={faStar} className="filled-star" />
               ))}
+              <FontAwesomeIcon icon={faStar} className="empty-star" />
             </div>
           </div>
         </div>

@@ -8,32 +8,34 @@ const ContactComponent = () => {
     <>
       <section className="contact-us">
         <div className="row">
+          {/* Left Column: Contact Info */}
           <div className="contact-col">
             <div>
               <FontAwesomeIcon icon={faHome} className="icon" />
               <span>
-                <h5>GT Road, Gulzar Group Of Institutes</h5>
-                <p>Ludhiana, Punjab, IN</p>
+                <h5>GT Road, Amritsar Bypass</h5>
+                <p>Jalandhar, Punjab – 144008, India</p>
               </span>
             </div>
 
             <div>
               <FontAwesomeIcon icon={faPhone} className="icon" />
               <span>
-                <h5>+91 6262172262</h5>
-                <p>Monday to Saturday, 10AM to 6PM</p>
+                <h5>+91 181 269 0301</h5>
+                <p>Monday to Friday, 9AM to 5PM</p>
               </span>
             </div>
 
             <div>
               <FontAwesomeIcon icon={faEnvelope} className="icon" />
               <span>
-                <h5>info@eduford.com</h5>
-                <p>Email us Your query</p>
+                <h5>registrar@nitj.ac.in</h5>
+                <p>Email us your query</p>
               </span>
             </div>
           </div>
 
+          {/* Right Column: Contact Form */}
           <div className="contact-col">
             <form action="">
               <input type="text" placeholder="Enter your name" required />

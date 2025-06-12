@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes, faBars } from "@fortawesome/free-solid-svg-icons";
 
-import logo from "/images/logo.png";
+// import logo from "/images/logo.png";
 
 const Navbar = () => {
   const navLinkRef = useRef();
@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <nav>
       <Link to="/">
-        <img src={logo} alt="" />
+        <img src="public/images/logo.png" alt=""  height="150px"/>
       </Link>
 
       <div className="nav-links" id="navLinks" ref={navLinkRef}>

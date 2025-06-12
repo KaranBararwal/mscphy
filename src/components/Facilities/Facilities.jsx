@@ -3,31 +3,35 @@ import "./Facilities.css";
 const Facilities = () => {
   return (
     <section className="facilities">
-      <h1>Our Facilities</h1>
-      <p>Immerse yourself in a world of exceptional amenities and services.</p>
+      <h1>Facilities for M.Sc. Physics at NIT Jalandhar</h1>
+      <p>
+        Experience an environment that fosters advanced learning and research in Physics.
+      </p>
       <div className="row">
         <div className="facilities-col">
-          <img src="/images/library.png" alt="" />
-          <h3>World Class Library</h3>
+          <img src="/images/library.png" alt="Library" />
+          <h3>Advanced Central Library</h3>
           <p>
-            Dive into a sea of knowledge with our state-of-the-art library. An
-            oasis for intellectual exploration.
+            Access a vast collection of physics journals, research papers, e-books, and 
+            reference materials that support your academic journey.
           </p>
         </div>
+
         <div className="facilities-col">
-          <img src="/images/basketball.png" alt="" />
-          <h3>Largest Play Ground</h3>
+          <img src="/images/washington.png" alt="Physics Lab" />
+          <h3>Well-Equipped Physics Laboratories</h3>
           <p>
-            Unleash your energy on our expansive playground. A haven for sports
-            enthusiasts and active minds.
+            Hands-on experiments in Modern Physics, Solid State Physics, 
+            Nuclear Physics, and Optics conducted in state-of-the-art labs.
           </p>
         </div>
+
         <div className="facilities-col">
-          <img src="/images/cafeteria.png" alt="" />
-          <h3>Tasty and Healthy Food</h3>
+          <img src="/images/about.jpg" alt="Research Support" />
+          <h3>Research & Computational Facilities</h3>
           <p>
-            Indulge your taste buds with our delightful and nutritious cuisine.
-            Fuel for both body and mind.
+            Access high-performance computing labs, simulation software, and 
+            project guidance for dissertation and research work.
           </p>
         </div>
       </div>
