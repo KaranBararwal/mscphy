@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <nav>
       <Link to="/">
-        <img src="public/images/logo.png" alt=""  height="150px"/>
+        <img src="/images/logo.png" alt=""  height="150px"/>
       </Link>
 
       <div className="nav-links" id="navLinks" ref={navLinkRef}>
