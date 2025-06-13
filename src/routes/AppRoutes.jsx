@@ -6,6 +6,7 @@ import Contact from "../pages/Contact";
 import Course from "../pages/Course";
 import People from "../pages/People";
 import ArvinderProfile from "../pages/ArvinderProfile";
+import PlasmaStudents from "../components/Students/PlasmaStudents";
 
 const AppRoutes = () => {
   return (
@@ -16,6 +17,8 @@ const AppRoutes = () => {
       <Route path="/contact" element={<Contact />} />
       <Route path="/course" element={<Course />} />
       <Route path="/faculty/arvinder" element={<ArvinderProfile />} />
+      <Route path="/students/plasma" element={<PlasmaStudents />} />
+      {/* Add more routes as needed */}
     </Routes>
   );
 };

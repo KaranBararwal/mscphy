@@ -1,6 +1,9 @@
 import "./Profile.css";
+import { useNavigate } from "react-router-dom";
 
 const ArvinderProfile = () => {
+    const navigate = useNavigate();
+
   return (
     <section className="profile-page">
       <h2>Dr. Arvinder Singh - Plasma Research Laboratory</h2>
@@ -65,6 +68,16 @@ const ArvinderProfile = () => {
         <li>Study of collective behavior of a plasma by launching and detecting ion acoustic waves.</li>
         <li>To study the conditions of occurrence of striations.</li>
       </ol>
+
+       {/* New Section for Students */}
+      <h3>Students Involved in Plasma Experiments</h3>
+      <p>
+        A number of postgraduate students have actively participated in plasma experiments under Dr. Arvinder Singh’s guidance.
+      </p>
+      <button className="hero-btn red-btn" onClick={() => navigate("/students/plasma")}>
+        View Students
+      </button>
+
     </section>
   );
 };
