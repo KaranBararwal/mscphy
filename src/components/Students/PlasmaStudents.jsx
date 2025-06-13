@@ -1,6 +1,26 @@
 import "./Students.css";
 
-const studentList = [
+// --- Ph.D. Project Students Data ---
+const phdStudents = [
+  {
+    name: "Drishti Sharma",
+    rollNo: "PhD21PHY01",
+    email: "drishti.phd@nitj.ac.in",
+    specialization: "Plasma Surface Interaction",
+    image: "/images/phd1.jpg",
+  },
+  {
+    name: "Vikas Thakur",
+    rollNo: "PhD21PHY02",
+    email: "vikas.phd@nitj.ac.in",
+    specialization: "Microwave Plasma Diagnostics",
+    image: "/images/phd2.jpg",
+  },
+  // Add more PhD students here
+];
+
+// --- M.Sc. Project Students Data ---
+const mscStudents = [
   {
     name: "Aman Verma",
     rollNo: "21PH1001",
@@ -22,15 +42,27 @@ const studentList = [
     specialization: "Microwave Plasma Studies",
     image: "/images/student3.jpg",
   },
-  // Add more students here as needed
 ];
 
 const PlasmaStudents = () => {
   return (
     <section className="student-page">
-      <h2>Plasma Experiment Students</h2>
+      <h2>Ph.D. Project Students</h2>
       <div className="student-grid">
-        {studentList.map((student, index) => (
+        {phdStudents.map((student, index) => (
+          <div className="student-card" key={index}>
+            <img src={student.image} alt={student.name} />
+            <h3>{student.name}</h3>
+            <p><strong>Roll No:</strong> {student.rollNo}</p>
+            <p><strong>Email:</strong> <a href={`mailto:${student.email}`}>{student.email}</a></p>
+            <p><strong>Area:</strong> {student.specialization}</p>
+          </div>
+        ))}
+      </div>
+
+      <h2>M.Sc. Project Students</h2>
+      <div className="student-grid">
+        {mscStudents.map((student, index) => (
           <div className="student-card" key={index}>
             <img src={student.image} alt={student.name} />
             <h3>{student.name}</h3>
