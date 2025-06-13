@@ -5,7 +5,7 @@ import Footer from "../components/Footer/Footer";
 const About = () => {
   return (
     <>
-      <Subheader header="About Us" />
+      <Subheader header="About" />
       <AboutUsBox />
       <Footer />
     </>

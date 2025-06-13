@@ -1,0 +1,12 @@
+.profile-page {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.profile-img {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}

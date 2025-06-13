@@ -1,8 +1,8 @@
 import Subheader from "../components/Subheader/Subheader";
-import BlogContent from "../components/BlogContent/BlogContent";
+import BlogContent from "../components/People/People";
 import Footer from "../components/Footer/Footer";
 
-const Blog = () => {
+const People = () => {
   return (
     <>
       <Subheader header="Certificate &' Online Programs For 2025" />
@@ -12,4 +12,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default People;
